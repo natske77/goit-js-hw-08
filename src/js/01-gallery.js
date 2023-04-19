@@ -9,7 +9,7 @@ console.log(galleryItems);
 const photoGallery = document.querySelector('.gallery');
 photoGallery.innerHTML = markupGalleryItems(galleryItems);
 
-const gallery = new SimpleLightbox('gallery a', {
+const gallery = new SimpleLightbox('.gallery a', {
     captionData: 'alt',
     captionDelay: 250,
 });
